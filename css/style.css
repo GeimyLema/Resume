@@ -1,0 +1,41 @@
+#header, #footer, .bar-color{
+    background-color: #B7C6DF;
+}
+h1, h2, #footer{
+    color: #2D3C56;
+}
+.profile-name{
+    display: flex;
+    align-items:end;
+}
+/* Set image inside half circle with white shadow */
+.profile-img{
+    border-radius: 50%;
+    transform: translateY(50%);
+    box-shadow: 0 0 0 10px #fff;
+}
+/* Set padding */
+footer {
+    padding: 10px;
+}
+.skills ul li{
+    height: 20px;
+    list-style: none;
+}
+.progress{
+    height: 10px;
+}
+.work {
+    padding-left:0;
+    list-style: none;
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    margin: auto;
+}
+#footer ul{
+    justify-content: center;
+}
